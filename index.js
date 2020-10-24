@@ -131,12 +131,12 @@ function clearStatus(element){
 //use the examples below to make your own question
 const questions = [
     {
-    	question: 'when did kenya acquire its independence',
+    	question: 'who is the founder of microsoft',
     	answers:[ 
-    	    {text:,"1963" correct: true},
-    	    {text: "1985", correct: false},
-    	     {text: "1976", correct: false} ,
-    	     {text: "233", correct: false} 
+    	    {text:"steve jobs" correct: false},
+    	    {text: "bill gates", correct: true},
+    	     {text: "elon musk", correct: false} ,
+    	     {text: "alphabet", correct: false} 
     	]
     },
     {
@@ -158,12 +158,12 @@ const questions = [
     	]
     },
     { 
-    	question: 'what is 2 * 2',
+    	question: 'what is 23 * 10',
     	answers:[
-    	    {text: '4', correct: true},
-    	    {text: "22", correct: false},
-    	     {text: "25", correct: false} ,
-    	     {text: "23", correct: false}
+    	    {text: '230', correct: true},
+    	    {text: "220", correct: false},
+    	     {text: "33", correct: false} ,
+    	     {text: "23", correct: false} 
     	]
     }, 
     {
