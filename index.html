@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>quiz</title>
+</head>
+<body id="body">
+	<h3 id="point">points</h3> 
+ <div class="box" id="box"> 
+ <div id="boxheader" class="hood"></div>  
+ 	<div id="question-container" class="hide"> 
+ 		<div id="question" class="question">question</div>
+ 		<div id="answer-buttons" class="btn-grid">
+ 		</div>
+ 	</div>  
+         <div class="pointCicle hide">  
+         	 	 <h1 id="points-earned"></h1> 
+         	 	 <div class="progress"> 
+         	 	 <div class="loader" id="loader"></div> 
+         	 	</div>
+          </div>
+   <div class="controls">
+   	<button id="start-btn" class="start-btn btn">start</button>
+   	<button id="next-btn" class="next-btn btn hide">next</button>
+   	<button id="finish-btn" class="finish-btn btn hide">finish</button>
+   </div>
+   <div id="msg" class="">	
+   <h3 class="start-txt" id="stt"> answer the questions to earn points</h3>
+    <h5>click start when ready</h5></div>  
+ </div> 
+<!--  remove this to remove the annoying twitter div -->
+ <a href="https://twitter.com/bethropolis"><div class="follow">@bethropolis</div></a> 
+ <script src="index.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
